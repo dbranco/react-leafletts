@@ -18,7 +18,35 @@ Custom integration of Leaflet with React — minimal, flexible, and extensible.
 
 ---
 
-## 📦 Installation
+## 🌎 Roadmap
+
+### Priority 1 (Mandatory):
+
+- ✅ Map
+- ✅ Marker
+- ✅ Popup
+- ✅ TileLayer
+- ⬜ GeoJSON Layer Component
+- ⬜ Event Hooks Components (onClick, onMove, onZoom, onPopupOpen, etc.)
+- ⬜ Polyline / Polygon Components
+- ⬜ Control Components (Zoom, Scale, Layers control)
+
+### Priority 2 (Important):
+
+- ⬜ Marker Clustering Component
+- ⬜ Circle / CircleMarker Components
+- ⬜ Layer Group & Feature Group Components
+- ⬜ Custom Icon Support for Marker
+
+### Priority 3 (Nice to Have):
+
+- ⬜ Draw / Edit Tools Components
+- ⬜ Map Animation & Transition Helpers
+- ⬜ Fullscreen Control
+- ⬜ Geolocation Support Component
+- ⬜ Heatmap Layer
+
+## 🚧 📦 WIP: Installation 🚧
 
 ```bash
 npm install react-leafletts leaflet
