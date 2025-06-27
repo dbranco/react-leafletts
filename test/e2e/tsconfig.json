@@ -1,0 +1,13 @@
+// test/e2e/tsconfig.json
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": ["cypress"],
+    "baseUrl": "../../",
+    "paths": {
+      "@react-leafletts/*": ["src/*"]
+    }
+  },
+  "include": ["./**/*.ts", "./**/*.tsx"],
+  "exclude": []
+}

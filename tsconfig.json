@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    // Project output
+    "outDir": "dist",
+
+    // Module resolution
+    "baseUrl": ".",
+    "paths": {
+      "@react-leafletts/*": ["src/*"]
+    },
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ES2020",
+    "lib": ["DOM", "ES2020"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    // React & JSX
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+
+    // Type checking
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // Source maps
+    "sourceMap": true,
+
+    // Declaration output
+    "declaration": true,
+    "declarationMap": true,
+
+    "types": ["node"]
+  },
+  "include": ["src", "test"],
+  "exclude": ["node_modules", "dist"]
+}
